@@ -1,0 +1,19 @@
+﻿<Window x:Class="Cargo_Fleet_Tracking.Menu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cargo_Fleet_Tracking"
+        mc:Ignorable="d"
+        Title="Menu" Height="450" Width="800">
+    <Grid>
+        <Rectangle Fill="#FFFFFF80" HorizontalAlignment="Left" Height="30" VerticalAlignment="Top" Width="792"/>
+        <Image Margin="314,35,314,321" Source="Cargo-Fleet logo.png" Stretch="Fill"/>
+        <Button x:Name="btn_AddClient" Content="Add Client" HorizontalAlignment="Left" Margin="290,103,0,0" VerticalAlignment="Top" Width="217" Background="#FF81D3F8" Height="40" Foreground="White" FontSize="16" FontFamily="Century Gothic" FontWeight="Bold" FontStyle="Italic" Click="Button_Click"/>
+        <Button x:Name="btn_SetAppointment" Content="Set New Appointment" HorizontalAlignment="Left" Margin="290,163,0,0" VerticalAlignment="Top" Width="217" Background="#FFCAF982" Height="40" FontSize="16" Foreground="White" FontFamily="Century Gothic" FontWeight="Bold" FontStyle="Italic" Click="Button_Click_1"/>
+        <Button x:Name="btn_AddVehicle" Content="Add Vehicle Information" HorizontalAlignment="Left" Margin="290,223,0,0" VerticalAlignment="Top" Width="217" Background="#FFC280FF" Height="40" FontSize="16" Foreground="White" FontWeight="Bold" FontStyle="Italic" FontFamily="Century Gothic" Click="btn_AddVehicle_Click"/>
+        <Button x:Name="btn_AddTrip" Content="Add Trip Details" HorizontalAlignment="Left" Margin="290,283,0,0" VerticalAlignment="Top" Width="217" Background="#FFEC808D" Height="40" FontSize="16" Foreground="White" FontWeight="Bold" FontStyle="Italic" FontFamily="Century Gothic" Click="btn_AddTrip_Click"/>
+        <Button x:Name="btn_ViewReports" Content="View Reports" HorizontalAlignment="Left" Margin="290,342,0,0" VerticalAlignment="Top" Width="217" Background="#FF00AAAA" Height="40" FontSize="16" Foreground="White" FontWeight="Bold" FontStyle="Italic" FontFamily="Century Gothic" Click="btn_ViewReports_Click"/>
+
+    </Grid>
+</Window>
